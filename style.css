@@ -12,7 +12,7 @@ header{
     position: relative;
     bottom: 20px;;
     height: 70px;
-    width: 100%;
+    width: 100vw;
     background-color: #4B7F52;
 }
 header h1{
@@ -23,7 +23,7 @@ color: #FFFCF9;
 }
 nav{
     position: absolute;
-    left: 490px; bottom: 3px;
+    left: 20vw; bottom: 3px;
     
 }
 li {
@@ -50,7 +50,7 @@ li {
     text-decoration:none;
     padding-left: 60px;
     position: relative;
-    right: 50px;
+    right: 5px;
    
     }
     a:hover{
@@ -76,19 +76,19 @@ li {
 
 .search{
     float: right;
-    margin-right: 150px;
+    margin-right: 6vw;
     position: relative;
-    bottom: 33px;
-   height: 20px;
+    bottom: 45px;
+   height: 24px;
 }
 .fa-search:before{
     font-size: 16px;
     position: relative;
-    left: 1200px; bottom: 41px;
+    left: 80vw; bottom: 41px;
 }
 .fa-user:before{
     position: relative;
-    left: 1430px; bottom: 38px;
+    left: 95vw; bottom: 38px;
     font-size: 30px;
     color: black;
 }
