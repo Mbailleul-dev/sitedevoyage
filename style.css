@@ -1,42 +1,94 @@
-.photo
+/* GENERAL */
+*
 {
-    width: 40vw;
-    min-height: 35vh;
-    float: left;
-    margin-right: 2vw;
+    margin: 0;
+    padding: 0;
+    
 }
-p{
-    margin: 0.2rem;
+
+/*HEADER*/
+
+header{
+    position: relative;
+    bottom: 20px;;
+    height: 70px;
+    width: 100%;
+    background-color: #4B7F52;
 }
-h6{
-    font-size: 2.4rem;
-    margin: 0.2rem;
+header h1{
+font-size: 50px;
+margin-left: 30px;
+margin-top: 20px;
+color: #FFFCF9;
 }
-.etoile
-{
-    font-size: 1rem;
+nav{
+    position: absolute;
+    left: 490px; bottom: 3px;
+    
 }
-.tarif
-{
-    font-size: 1.8rem;
-    font-weight: bold;
+li {
+    list-style:none !important;
+    color:#FFF;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    white-space: nowrap;
+    
+    }
+    
+    nav ul li {
+    list-style: none;
+    line-height:44px;
+    float:left;
+    
+   
+    }
+    nav ul li a {
+    color:#C9FFEb;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none;
+    padding-left: 60px;
+    position: relative;
+    right: 50px;
+   
+    }
+    a:hover{
+    color: black;
+    }
+  nav ul li ul li a{
+      color: #7DD181;
+      
+      
 }
-.barre
-{
-    text-decoration:line-through red;
-    font-size: 3rem;
+    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+    z-index:99999;
+    display:list-item !important;
+    position:absolute;
+    margin-top:5px;
+    margin-left:-10px;
+    
+    }
+    nav ul li:hover ul li {
+    float:none;
+    }
+
+.search{
+    float: right;
+    margin-right: 150px;
+    position: relative;
+    bottom: 33px;
+   height: 20px;
 }
-button
-{
-    background-color: teal;
+.fa-search:before{
+    font-size: 16px;
+    position: relative;
+    left: 1200px; bottom: 41px;
 }
-button:hover
-{
-    background-color: orange;
-}
-.voyage
-{
-    width: 70vw;
-    height: 60vh;
-    margin-left: 15vw;
+.fa-user:before{
+    position: relative;
+    left: 1430px; bottom: 38px;
+    font-size: 30px;
+    color: black;
 }
