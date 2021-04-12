@@ -1,0 +1,42 @@
+.photo
+{
+    width: 40vw;
+    min-height: 35vh;
+    float: left;
+    margin-right: 2vw;
+}
+p{
+    margin: 0.2rem;
+}
+h6{
+    font-size: 2.4rem;
+    margin: 0.2rem;
+}
+.etoile
+{
+    font-size: 1rem;
+}
+.tarif
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.barre
+{
+    text-decoration:line-through red;
+    font-size: 3rem;
+}
+button
+{
+    background-color: teal;
+}
+button:hover
+{
+    background-color: orange;
+}
+.voyage
+{
+    width: 70vw;
+    height: 60vh;
+    margin-left: 15vw;
+}
