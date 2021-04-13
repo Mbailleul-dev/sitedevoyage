@@ -281,9 +281,10 @@ button:hover
 {
     background-color: orange;
 }
-button a, h1 a
+button a, header h1 a
 {
     color: white;
+    text-decoration: none;
 }
 
 
