@@ -15,7 +15,7 @@ form
     margin-left: 32vw;
 }
 form#paiement {
-  background: #9cbc2c;
+  background: #184e77;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -34,7 +34,7 @@ form#paiement legend {
   font-size: 16px;
   font-weight: bold;
   padding-bottom: 10px;
-  text-shadow: 0 1px 1px #c0d576;
+  text-shadow: 0 1px 1px #184e77;
 }
 form#paiement > fieldset > legend:before {
   content: "Étape " counter(fieldsets) " : ";
@@ -47,9 +47,9 @@ form#paiement fieldset fieldset legend {
   padding-bottom: 0;
 }
 form#paiement ol li {
-  background: #b9cf6a;
+  background: #184e77;
   background: rgba(255,255,255,.3);
-  border-color: #e3ebc3;
+  border-color: #184e77;
   border-color: rgba(255,255,255,.6);
   border-style: solid;
   border-width: 2px;
@@ -111,7 +111,7 @@ form#paiement input[type=radio] {
   margin-right: 5px;
 }
 form#paiement button {
-  background: #384313;
+  background: #0a3a5f;
   border: none;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -127,6 +127,6 @@ form#paiement button {
   text-transform: uppercase;
 }
 form#paiement button:hover {
-  background: #1e2506;
+  background: #589fd4;
   cursor: pointer;
 }

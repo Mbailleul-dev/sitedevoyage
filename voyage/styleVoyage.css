@@ -29,12 +29,12 @@ h6{
     text-decoration:line-through red;
     font-size: 3rem;
 }
-button
+.voyage button
 {
-    background-color: teal;
+    background-color: #184e77;
     margin-top: 3vh;
-    width: 15vw;
-    height: 11vh;
+    width: 13vw;
+    height: 10vh;
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -48,4 +48,8 @@ button:hover
     height: 80vh;
     margin-left: 2vw;
     margin-top: 9vh;
+}
+.connexion a
+{
+    color: white;
 }

@@ -9,13 +9,12 @@ body
     background-color: beige;
 }
 #conseil{
-    width: 100%;
+    width: 100vw;
+    height: 20%;
 }
 #conseil-titre{
     text-align: center;
     font-size: 50px;
-    position: relative;
-    top: 30px;
 }
 .image1{
     width: 600px;
@@ -64,7 +63,7 @@ header{
     bottom: 20px;;
     height: 70px;
     width: 100vw;
-    background-color: #4B7F52;
+    background-color: #184e77;
 }
 header h1{
 font-size: 50px;
@@ -87,15 +86,15 @@ li {
     
     }
     
-    nav ul li {
+nav ul li {
     list-style: none;
     line-height:44px;
     float:left;
     
    
     }
-    nav ul li a {
-    color:#C9FFEb;
+nav ul li a {
+    color:white;
     padding:10px;
     font-size:20px;
     text-decoration:none;
@@ -104,16 +103,19 @@ li {
     right: 5px;
    
     }
-    a:hover{
+a
+    {text-decoration: none;
+    color: #589fd4;}
+nav a:hover{
     color: black;
     }
-  nav ul li ul li a{
-      color: #7DD181;
+nav ul li ul li a{
+      color: #184e77;
       
       
 }
-    nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
-    nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
     z-index:99999;
     display:list-item !important;
     position:absolute;
@@ -121,13 +123,13 @@ li {
     margin-left:-10px;
     
     }
-    nav ul li:hover ul li {
+nav ul li:hover ul li {
     float:none;
     }
 
 .search{
     float: right;
-    margin-right: 6vw;
+    margin-left: 80vw;
     position: relative;
     bottom: 45px;
    height: 24px;
@@ -143,12 +145,12 @@ li {
     font-size: 30px;
     color: black;
 }
-/*#etiquette
+#etiquette
 {
     float: left;
-    width: 990vw;
-    height: 99vh;
-}*/
+    width: 99vw;
+    height: 94vh;
+}
 #barcelone
 {
     width: 45vw;
@@ -160,23 +162,15 @@ li {
     height :15vh;
     
 }
-.format
-{
-    width: 20vw;
-    height: 20vh;
-    margin-left: 2vw;
-    margin-bottom: 5vh;
-    background-color: beige;
-}
 div{
     float: left;
 }
 #footer
 {
-    margin-top: 20vh;
+    margin-top: 5vh;
     width: 100vw;
     height: 15vh;
-    background-color: #4B7F52;
+    background-color: #184e77;
 }
 h5
 {
@@ -188,6 +182,9 @@ h5
     border-radius: 5% 5% 5% 5%;
     padding: 10px;
     background-color: beige;
+    width: 46%;
+    height:69%;
+    margin-left: 4vw;
 }
 .format1, .format2, .format3, .format4
 {
@@ -195,24 +192,29 @@ h5
     border-radius: 5% 5% 5% 5%;
     padding: 10px;
     background-color: beige;
+    width: 20%;
+    height: 30%;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+    background-color: beige;
 }
-img
+#etiquette img
 {
     border-radius: 5% 5% 5% 5%;
-}
+}/*
 #minute, .format1, .format2, .format3, .format4 {
-    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
-    -webkit-transition: all 0s ease; /* Safari et Chrome */
-    -moz-transition: all 0s ease; /* Firefox */
-    -ms-transition: all 0s ease; /* Internet Explorer 9 */
-    -o-transition: all 0s ease; /* Opera */
+    
+    -webkit-transition: all 0s ease; 
+    -moz-transition: all 0s ease; 
+    -ms-transition: all 0s ease; 
+    -o-transition: all 0s ease; 
     transition: all 0s ease;
     }
 #minute:hover  {
-    -webkit-transform:scale(1.45); /* Safari et Chrome */
-    -moz-transform:scale(1.45); /* Firefox */
-    -ms-transform:scale(1.45); /* Internet Explorer 9 */
-    -o-transform:scale(1.45); /* Opera */
+    -webkit-transform:scale(1.45); 
+    -moz-transform:scale(1.45); 
+    -ms-transform:scale(1.45); 
+    -o-transform:scale(1.45); 
     transform:scale(1.45);
     margin-left: 8vw;
     margin-top: 8vh;
@@ -220,10 +222,10 @@ img
 }
 .format1:hover
 {
-    -webkit-transform:scale(4); /* Safari et Chrome */
-    -moz-transform:scale(4); /* Firefox */
-    -ms-transform:scale(4); /* Internet Explorer 9 */
-    -o-transform:scale(4); /* Opera */
+    -webkit-transform:scale(4);
+    -moz-transform:scale(4); 
+    -ms-transform:scale(4); 
+    -o-transform:scale(4); 
     transform:scale(4);
     position:absolute;
     margin-left: 15vw;
@@ -231,10 +233,10 @@ img
 }
 .format2:hover
 {
-    -webkit-transform:scale(4); /* Safari et Chrome */
-    -moz-transform:scale(4); /* Firefox */
-    -ms-transform:scale(4); /* Internet Explorer 9 */
-    -o-transform:scale(4); /* Opera */
+    -webkit-transform:scale(4); 
+    -moz-transform:scale(4); 
+    -ms-transform:scale(4); 
+    -o-transform:scale(4); 
     transform:scale(4);
     position:absolute;
     margin-left: 15vw;
@@ -242,10 +244,10 @@ img
 }
 .format3:hover
 {
-    -webkit-transform:scale(4); /* Safari et Chrome */
-    -moz-transform:scale(4); /* Firefox */
-    -ms-transform:scale(4); /* Internet Explorer 9 */
-    -o-transform:scale(4); /* Opera */
+    -webkit-transform:scale(4); 
+    -moz-transform:scale(4); 
+    -ms-transform:scale(4); 
+    -o-transform:scale(4); 
     transform:scale(4);
     position:absolute;
     margin-left: 15vw;
@@ -253,12 +255,28 @@ img
 }
 .format4:hover
 {
-    -webkit-transform:scale(4); /* Safari et Chrome */
-    -moz-transform:scale(4); /* Firefox */
-    -ms-transform:scale(4); /* Internet Explorer 9 */
-    -o-transform:scale(4); /* Opera */
+    -webkit-transform:scale(4); 
+    -moz-transform:scale(4); 
+    -ms-transform:scale(4); 
+    -o-transform:scale(4); 
     transform:scale(4);
     position:absolute;
     margin-left: 15vw;
     margin-top: 10vh;
+}*/
+button
+{
+    background-color: #184e77;
+    margin-top: 3vh;
+    width: 8vw;
+    height: 5vh;
+    font-size: 1.5rem;
+}
+button:hover
+{
+    background-color: orange;
+}
+button a
+{
+    color: white;
 }
