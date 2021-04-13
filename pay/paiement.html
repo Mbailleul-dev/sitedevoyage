@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="stylePay.css">
+   <link rel="stylesheet" href="../style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <title>Site de voyage(Payement)</title>
+</head>
+<body>
+
+    <header>
+        <h1>Voyage</h1>
+      <div id="navigation">
+        <nav>
+          <ul>
+          
+          <!-- Début du menu déroulant -->
+          <li><a href="#">Vols</a>
+          <ul>
+          <li><a href="#">Drop 1</a></li>
+          <li><a href="#">Drop 2</a></li>
+          <li><a href="#">Drop 3</a></li>
+          </ul>
+          </li>
+  
+          <li><a href="#">Séjours</a>
+            <ul>
+            <li><a href="#">Drop 1</a></li>
+            <li><a href="#">Drop 2</a></li>
+            <li><a href="#">Drop 3</a></li>
+            </ul>
+            </li>
+  
+            <li><a href="#">Hotels</a>
+              <ul>
+              <li><a href="#">Drop 1</a></li>
+              <li><a href="#">Drop 2</a></li>
+              <li><a href="#">Drop 3</a></li>
+              </ul>
+              </li>
+  
+              <li><a href="#">Croisières</a>
+                <ul>
+                <li><a href="#">Drop 1</a></li>
+                <li><a href="#">Drop 2</a></li>
+                <li><a href="#">Drop 3</a></li>
+                </ul>
+                </li>
+  
+                <li><a href="#">Autres</a>
+                  <ul>
+                  <li><a href="#">Drop </a></li>
+                  <li><a href="#">Drop </a></li>
+                  <li><a href="#">Drop </a></li>
+                  </ul>
+                  </li>
+  
+          </ul>
+          </nav>
+          <i class="fas fa-search"></i>
+          <input class="search" type="text" placeholder="Recherche">
+          <a href="connexion/connexion.html"><i class="fas fa-user"></i></a>
+        </div>
+       
+    </header>
+
+    
+    <form id=paiement>
+        <fieldset>
+          <h4>Étape 1 : Votre identité</h4>
+      
+          <ol>
+            <li>
+              <label for=nom>Nom</label>
+              <input id=nom name=nom type=text placeholder="Prénom et nom" required autofocus>
+            </li>
+            <li>
+              <label for=email>Email</label>
+              <input id=email name=email type=email placeholder="exemple@domaine.net" required>
+            </li>
+            <li>
+              <label for=telephone>Téléphone</label>
+              <input id=telephone name=telephone type=tel placeholder="" required>
+            </li>
+          </ol>
+        </fieldset>
+      
+        <fieldset>
+         <h4>Étape 2 : Lieu de résidence</h4>
+            <ol>
+              <li>
+                <label for=adresse>Adresse</label>
+                <textarea id=adresse name=adresse rows=5 required></textarea>
+              </li>
+              <li>
+                <label for=codepostal>Code postal</label>
+                <input id=codepostal name=codepostal type=text required>
+              </li>
+                <li>
+                <label for=pays>Pays</label>
+                <input id=pays name=pays type=text required>
+              </li>
+            </ol>
+          </fieldset>
+        <fieldset>
+          <h4>Étape 3 : Information CB</h4>
+          <ol>
+            <li>
+              <fieldset>
+                <legend>Type de carte bancaire</legend>
+                <ol>
+                  <li>
+                    <input id=visa name=type_de_carte type=radio>
+                    <label for=visa>VISA</label>
+                    
+                  </li>
+                  <li>
+                    <input id=paypal name=type_de_carte type=radio>
+                    <label for=paypal>Paypal</label>
+                  </li>
+                  <li>
+                    <input id=mastercard name=type_de_carte type=radio>
+                    <label for=mastercard>Mastercard</label>
+                  </li>
+                </ol>
+              </fieldset>
+            </li>
+            <li>
+              <label for=numero_de_carte>N° de carte</label>
+              <input id=numero_de_carte name=numero_de_carte type=number required>
+            </li>
+            <li>
+              <label for=securite>Code sécurité</label>
+              <input id=securite name=securite type=number required>
+            </li>
+            <li>
+              <label for=nom_porteur>Nom du porteur</label>
+              <input id=nom_porteur name=nom_porteur type=text placeholder="Même nom que sur la carte" required>
+            </li>
+          </ol>
+        </fieldset>
+      
+        <fieldset>
+          <button type=submit>Valider</button>
+        </fieldset>
+      </form>
+
+
+
+</body>
+</html>
