@@ -70,11 +70,16 @@ font-size: 50px;
 margin-left: 30px;
 margin-top: 20px;
 color: #FFFCF9;
+font-family: 'Poiret One', cursive;
+}
+
+h6{
+font-weight: bold;
 }
 nav{
     position: absolute;
     left: 20vw; bottom: 3px;
-    
+    font-family: 'Orelega One', cursive;
 }
 li {
     list-style:none !important;
@@ -276,7 +281,12 @@ button:hover
 {
     background-color: orange;
 }
-button a
+button a, h1 a
 {
     color: white;
 }
+
+
+
+
+/*Footer*/
