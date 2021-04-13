@@ -3,9 +3,60 @@
 {
     margin: 0;
     padding: 0;
-    
 }
-
+body
+{
+    background-color: beige;
+}
+#conseil{
+    width: 100%;
+}
+#conseil-titre{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+}
+.image1{
+    width: 600px;
+    height: 400px;
+    padding-right: 50px;
+    margin-left: 150px;
+    padding-top: 100px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image2{
+    width: 600px;
+    height: 400px; 
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image2:hover{
+    opacity: .5;
+}
+#astuce{
+    margin-left: 280px;
+   position: relative;
+   bottom: 230px;
+   font-size: 50px;
+   color: white;
+   text-shadow: 2px 2px 2px black;
+   width: 320px;
+}
+.image1:hover{
+    opacity: .5;
+}
+#partir{
+    float: right;
+    margin-right: 330px;
+    font-size: 50px;
+    color: white;
+    position: relative;
+   bottom: 300px;
+   text-shadow: 2px 2px 2px black;}
 /*HEADER*/
 
 header{
@@ -91,4 +142,123 @@ li {
     left: 95vw; bottom: 38px;
     font-size: 30px;
     color: black;
+}
+/*#etiquette
+{
+    float: left;
+    width: 990vw;
+    height: 99vh;
+}*/
+#barcelone
+{
+    width: 45vw;
+    height: 50vh;
+}
+#losangeles, #moscou, #pekin, #sydney
+{
+    width: 15vw;
+    height :15vh;
+    
+}
+.format
+{
+    width: 20vw;
+    height: 20vh;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+    background-color: beige;
+}
+div{
+    float: left;
+}
+#footer
+{
+    margin-top: 20vh;
+    width: 100vw;
+    height: 15vh;
+    background-color: #4B7F52;
+}
+h5
+{
+    font-size: 2rem;
+}
+#minute
+{
+    border:#4B7F52 solid 1px;
+    border-radius: 5% 5% 5% 5%;
+    padding: 10px;
+    background-color: beige;
+}
+.format1, .format2, .format3, .format4
+{
+    border:#4B7F52 solid 1px;
+    border-radius: 5% 5% 5% 5%;
+    padding: 10px;
+    background-color: beige;
+}
+img
+{
+    border-radius: 5% 5% 5% 5%;
+}
+#minute, .format1, .format2, .format3, .format4 {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 0s ease; /* Safari et Chrome */
+    -moz-transition: all 0s ease; /* Firefox */
+    -ms-transition: all 0s ease; /* Internet Explorer 9 */
+    -o-transition: all 0s ease; /* Opera */
+    transition: all 0s ease;
+    }
+#minute:hover  {
+    -webkit-transform:scale(1.45); /* Safari et Chrome */
+    -moz-transform:scale(1.45); /* Firefox */
+    -ms-transform:scale(1.45); /* Internet Explorer 9 */
+    -o-transform:scale(1.45); /* Opera */
+    transform:scale(1.45);
+    margin-left: 8vw;
+    margin-top: 8vh;
+    position:absolute;
+}
+.format1:hover
+{
+    -webkit-transform:scale(4); /* Safari et Chrome */
+    -moz-transform:scale(4); /* Firefox */
+    -ms-transform:scale(4); /* Internet Explorer 9 */
+    -o-transform:scale(4); /* Opera */
+    transform:scale(4);
+    position:absolute;
+    margin-left: 15vw;
+    margin-top: 10vh;
+}
+.format2:hover
+{
+    -webkit-transform:scale(4); /* Safari et Chrome */
+    -moz-transform:scale(4); /* Firefox */
+    -ms-transform:scale(4); /* Internet Explorer 9 */
+    -o-transform:scale(4); /* Opera */
+    transform:scale(4);
+    position:absolute;
+    margin-left: 15vw;
+    margin-top: 10vh;
+}
+.format3:hover
+{
+    -webkit-transform:scale(4); /* Safari et Chrome */
+    -moz-transform:scale(4); /* Firefox */
+    -ms-transform:scale(4); /* Internet Explorer 9 */
+    -o-transform:scale(4); /* Opera */
+    transform:scale(4);
+    position:absolute;
+    margin-left: 15vw;
+    margin-top: 10vh;
+}
+.format4:hover
+{
+    -webkit-transform:scale(4); /* Safari et Chrome */
+    -moz-transform:scale(4); /* Firefox */
+    -ms-transform:scale(4); /* Internet Explorer 9 */
+    -o-transform:scale(4); /* Opera */
+    transform:scale(4);
+    position:absolute;
+    margin-left: 15vw;
+    margin-top: 10vh;
 }
