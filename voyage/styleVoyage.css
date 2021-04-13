@@ -1,25 +1,28 @@
 .photo
 {
-    width: 40vw;
-    min-height: 35vh;
+    width: 50vw;
+    height: 65vh;
     float: left;
     margin-right: 2vw;
 }
-p{
+.sejour{
     margin: 0.2rem;
+    font-size: 2.2rem;
 }
 h6{
     font-size: 2.4rem;
-    margin: 0.2rem;
+    margin-top: 0;
 }
 .etoile
 {
     font-size: 1rem;
+    margin-top: 5vh;
 }
 .tarif
 {
     font-size: 1.8rem;
     font-weight: bold;
+    margin-top: 4vh;
 }
 .barre
 {
@@ -29,6 +32,11 @@ h6{
 button
 {
     background-color: teal;
+    margin-top: 3vh;
+    width: 15vw;
+    height: 11vh;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 button:hover
 {
@@ -36,7 +44,8 @@ button:hover
 }
 .voyage
 {
-    width: 70vw;
-    height: 60vh;
-    margin-left: 15vw;
+    width: 95vw;
+    height: 80vh;
+    margin-left: 2vw;
+    margin-top: 9vh;
 }
