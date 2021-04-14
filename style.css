@@ -56,6 +56,22 @@ body
     position: relative;
    bottom: 300px;
    text-shadow: 2px 2px 2px black;}
+
+/*bouton achat*/
+.fa-shopping-cart:before{
+   
+    /*position: relative;*/
+    font-size: 25px;
+    color: black;
+    /*position: absolute;*/
+    margin-left: 94vw;
+    margin-top: 2px;
+    padding: 0;
+}
+#navi
+{
+    display: block;
+}
 /*HEADER*/
 
 header{
@@ -134,21 +150,27 @@ nav ul li:hover ul li {
 
 .search{
     float: right;
-    margin-left: 80vw;
-    position: relative;
-    bottom: 45px;
+        /*position: relative;*/
+    bottom: 20px;
    height: 24px;
+   position: absolute;
+   margin-left: 75vw;
+   
 }
 .fa-search:before{
     font-size: 16px;
-    position: relative;
-    left: 80vw; bottom: 41px;
+    /*position: relative;*/
+    bottom: 25px;
+    margin-left: 72vw;
+    position: absolute;
 }
 .fa-user:before{
-    position: relative;
-    left: 95vw; bottom: 38px;
+    /*position: relative;*/
+    bottom: 25px;
     font-size: 30px;
     color: black;
+    margin-left: 87vw;
+    position: absolute;
 }
 #etiquette
 {
