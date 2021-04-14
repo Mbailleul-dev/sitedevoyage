@@ -29,19 +29,9 @@ form#paiement fieldset {
 form#paiement fieldset:last-of-type {
   margin-bottom: 0;
 }
-form#paiement legend {
-  color: #384313;
-  font-size: 16px;
-  font-weight: bold;
-  padding-bottom: 10px;
-  text-shadow: 0 1px 1px #184e77;
-}
-form#paiement > fieldset > legend:before {
-  content: "Étape " counter(fieldsets) " : ";
-  counter-increment: fieldsets;
-}
+
 form#paiement fieldset fieldset legend {
-  color: #111111;
+  color: white;
   font-size: 13px;
   font-weight: normal;
   padding-bottom: 0;
